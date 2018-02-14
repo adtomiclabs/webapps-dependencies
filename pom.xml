@@ -6,7 +6,7 @@
 
     <groupId>com.parabrisassi.sist</groupId>
     <artifactId>dependencies</artifactId>
-    <version>0.0.1-RELEASE</version>
+    <version>0.0.2-RELEASE</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -21,6 +21,7 @@
 
         <!-- Dependencies versions -->
         <org.springframework.boot.version>1.5.8.RELEASE</org.springframework.boot.version>
+        <com.bellotapps.utils.error-handler.version>2.0.0-RELEASE</com.bellotapps.utils.error-handler.version>
     </properties>
 
     <dependencyManagement>
@@ -33,6 +34,13 @@
                 <version>${org.springframework.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Error Handler -->
+            <dependency>
+                <groupId>com.bellotapps.utils</groupId>
+                <artifactId>error-handler</artifactId>
+                <version>${com.bellotapps.utils.error-handler.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
