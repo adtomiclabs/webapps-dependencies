@@ -1,3 +1,3 @@
-# Parabrisas San Isidro Management System Dependencies [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0) [![Build Status](https://travis-ci.org/parabrisassi/psi-sist-dependencies.svg?branch=master)](https://travis-ci.org/parabrisassi/psi-sist-dependencies)
+# Adtomic Dependencies [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
-Project defining the dependencies to be used in the Parabrisas San Isidro Management Software.  
+Project defining the dependencies to be used by web apps created in Adtomic.

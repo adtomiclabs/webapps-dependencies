@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.parabrisassi.sist</groupId>
+    <groupId>com.adtomiclabs</groupId>
     <artifactId>dependencies</artifactId>
-    <version>0.0.2-RELEASE</version>
+    <version>0.0.1-RELEASE</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -88,13 +88,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>psi-artifactory</id>
-            <name>psi-artifactory</name>
-            <url>https://artifactory.parabrisassi.com/artifactory/libs-release/</url>
-        </repository>
-    </distributionManagement>
-
 </project>
